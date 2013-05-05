@@ -5,10 +5,16 @@ get_indent = (line) ->
   match = line.match /^(\s*)/
   match[0].length
 
+escapeHTML = (string) ->
+  string
+    .replace(/</g, "&lt;")
+    .replace(/>/g, "&gt;")
+
 make_list = (code) ->
   code.split("\n")
     .map((line) -> line.trimRight())
     .filter((line) -> line.length > 0)
+    .map(escapeHTML)
 
 make_tree = (lines) ->
   tree = {}

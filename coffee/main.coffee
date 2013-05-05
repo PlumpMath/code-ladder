@@ -1,6 +1,6 @@
 
 test_code = """
-https://github.com/qiao/coffee-box/blob/master/app/controllers/posts_controller.coffee
+# https://github.com/qiao/coffee-box/blob/master/app/controllers/posts_controller.coffee
 exports.getPostsController = (app) ->
   exceptions              = require '../../lib/exceptions'
   RSS                     = require('rss')

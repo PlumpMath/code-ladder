@@ -2,6 +2,11 @@
 Code Ladder: fold code in indented syntax
 ------
 
+### About
+
+This is an exercise of using Browserify and organizing CoffeeScript code.  
+Also I have an idea about viewing code in another angle.  
+
 ### develop
 
 Run `node-dev dev.coffee` to reload the code.  

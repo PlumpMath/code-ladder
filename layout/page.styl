@@ -37,16 +37,19 @@ body
     line-height 20px
 
   .unit
-    &:hover
-      box-shadow -1px 0px 0px hsl(0,0,60)
+    //
 
   .line
     cursor pointer
     padding 0px 2px
 
     &:hover
-      // background hsl(0,0,90)
+      background-color hsl(0,80,93)
 
   .block
-    margin 0px 0px 8px 16px
-    
+    margin 0px 0px 0px 16px
+    overflow hidden
+    -webkit-transition-duration 0.4s
+
+    &:hover
+      box-shadow -1px 0px 0px hsl(0,0,80)

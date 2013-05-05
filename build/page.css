@@ -31,13 +31,18 @@ body {
 #main #paper {
   line-height: 20px;
 }
-#main .unit:hover {
-  box-shadow: -1px 0px 0px #999;
-}
 #main .line {
   cursor: pointer;
   padding: 0px 2px;
 }
+#main .line:hover {
+  background-color: #fbdfdf;
+}
 #main .block {
-  margin: 0px 0px 8px 16px;
+  margin: 0px 0px 0px 16px;
+  overflow: hidden;
+  -webkit-transition-duration: 0.4s;
+}
+#main .block:hover {
+  box-shadow: -1px 0px 0px #ccc;
 }
