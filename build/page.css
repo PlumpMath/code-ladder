@@ -36,7 +36,7 @@ body {
   padding: 0px 2px;
 }
 #main .line:hover {
-  background-color: #fbdfdf;
+  box-shadow: inset 0px 0px 6px #999;
 }
 #main .block {
   margin: 0px 0px 0px 16px;

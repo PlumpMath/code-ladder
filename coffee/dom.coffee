@@ -17,7 +17,7 @@ paper.onclick = (event) ->
     # console.log next.childElementCount
     style = next.style
     if style.opacity is "0"
-      elem.style.background = "hsla(240,80%,90%,0)"
+      elem.style.background = "none"
       style.opacity = "1"
     else if next.childElementCount > 0
       elem.style.background = "hsl(240,80%,93%)"
