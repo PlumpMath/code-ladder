@@ -1,0 +1,22 @@
+{
+  "name": "code-ladder",
+  "version": "0.0.0",
+  "description": "Code Ladder: fold code in indented syntax",
+  "main": "lib/index.js",
+  "dependencies": {
+    "eventemitter": "~0.3.3"
+  },
+  "devDependencies": {
+    "chokidar": "~0.6.2"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": "",
+  "keywords": [
+    "indent"
+  ],
+  "author": "jiyinyiyong",
+  "license": "BSD",
+  "readmeFilename": "readme.md"
+}

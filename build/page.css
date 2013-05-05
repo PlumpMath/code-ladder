@@ -1,0 +1,43 @@
+* {
+  box-sizing: border-box;
+}
+body {
+  margin: 0px;
+}
+::-webkit-scrollbar {
+  width: 4px;
+  height: 4px;
+}
+::-webkit-scrollbar-track {
+  width: 4px;
+  background: rgba(0,0,0,0);
+}
+::-webkit-scrollbar-thumb {
+  border-radius: 2px;
+  background: #ccc;
+}
+#main {
+  width: 900px;
+  margin: 0px auto;
+  background: #f5f5f5;
+  padding: 40px 10px;
+  font-family: Consolas, Monaco;
+}
+#main #paste {
+  width: 100%;
+  border: none;
+  height: 80px;
+}
+#main #paper {
+  line-height: 20px;
+}
+#main .unit:hover {
+  box-shadow: -1px 0px 0px #999;
+}
+#main .line {
+  cursor: pointer;
+  padding: 0px 2px;
+}
+#main .block {
+  margin: 0px 0px 8px 16px;
+}
