@@ -11,3 +11,7 @@ Also I have an idea about viewing code in another angle.
 
 Run `node-dev dev.coffee` to reload the code.  
 Read `dev.coffee` for the command line tools you may need.  
+
+### Demo
+
+Visit Github Pages for demo: http://jiyinyiyong.github.io/code-ladder/build  
